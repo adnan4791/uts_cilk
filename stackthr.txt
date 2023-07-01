@@ -1,0 +1,20 @@
+
+Program             = Unbalance Tree Search
+Parameters          = test.input
+Model               = OpenMP (using tasks)
+Embedded cut-off    = none
+# of Threads        = 1
+Verification        = Not requested
+Time Program        = 7.132290 seconds
+Nodes               = 4112897.00
+Nodes/Sec           = 576658.69
+Execution Date      = 2010/06/25;19:03
+Execution Message   = 
+Architecture        = Linux-i686;4
+Load Avg [1:5:15]   = 0.52;0.31;0.24
+Compilation Date    = 
+Compilation Message = 
+Compiler            = 
+Compiler Flags      = 
+Linker              = 
+Linker Flags        = 

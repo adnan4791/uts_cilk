@@ -1,0 +1,52 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 52.92      3.26     3.26                             sha1_compile
+ 16.88      4.30     1.04                             rng_spawn
+  7.31      4.75     0.45                             parTreeSearch
+  2.60      4.91     0.16                             uts_numChildren_bin
+  2.27      5.05     0.14                             _ompc_task_1
+  2.27      5.19     0.14                             _ompc_task_start
+  2.11      5.32     0.13                             uts_numChildren
+  1.95      5.44     0.12                             rng_toProb
+  1.79      5.55     0.11                             _ompc_task_wait
+  1.79      5.66     0.11                             st_join_counter_finish_1
+  1.14      5.73     0.07                             st_join_counter_init
+  0.97      5.79     0.06                             asm_read_and_set_lsb4
+  0.97      5.85     0.06                             rng_rand
+  0.97      5.91     0.06                             st_parent_init
+  0.97      5.97     0.06                             st_read_and_lock_int
+  0.97      6.03     0.06                             st_set_taskenv
+  0.81      6.08     0.05                             st_join_counter_wait
+  0.65      6.12     0.04                             st_write_and_unlock_int
+  0.49      6.15     0.03                             ompc_task_create
+  0.16      6.16     0.01                             resume_contexts_list
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
