@@ -1,4 +1,5 @@
-how to compile
+how to compile :
+
 clang -fopencilk -lm -O3 bots_main.c bots_common.c brg_sha.c uts.c -o utscilk
 
 How to run
